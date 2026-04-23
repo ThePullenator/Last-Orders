@@ -18,6 +18,7 @@ public class DrinkPlaceholder : MonoBehaviour
     {
         //if (PlayerManager.HeldItem != null && PlayerManager.HeldItem.CompareTag("Drink")) Show();
         //else Hide();
+        Hide();
     }
     
     void Show()

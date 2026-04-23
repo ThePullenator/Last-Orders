@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SpawnGuide
   m_EditorClassIdentifier: 
   genericSpawns:
-  - {fileID: 675498680405882859, guid: 90bbd06f69c8612419d5d0259678ab4b, type: 3}
+  - {fileID: 252855287843933654, guid: 3fbfff7e89c4a9d4fb1e403d81a2132b, type: 3}
   spawnWaves:
   - startHour: 7
     startMinute: 0

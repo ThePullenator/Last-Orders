@@ -7,6 +7,11 @@ public class Drink
     public string Name;
     public DrinkEffectContainer[] Effects;
 
+    public Drink(string name)
+    {
+        Name = name;
+    }
+
     public Drink(string name, DrinkEffectContainer[] effects)
     {
         Name = name;
@@ -15,6 +20,7 @@ public class Drink
 
     public void OnDrink(Person drinker)
     {
+        if(Effects == null) return;
         for (int i = 0; i < Effects.Length; i++)
         {
             DrinkEffectContainer effect = Effects[i];

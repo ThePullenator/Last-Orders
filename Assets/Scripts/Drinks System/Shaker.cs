@@ -75,15 +75,17 @@ public class Shaker : MonoBehaviour, IInteractable
     {
         if (pendingRecipe != null)
         {
-            GameObject drink = Instantiate(defaultDrink, spawnPoint.position, defaultDrink.transform.rotation);
-            DrinkObject drinkScript = drink.GetComponent<DrinkObject>();
-            drinkScript.contains = pendingRecipe.cocktailName;
+            //GameObject drink = Instantiate(defaultDrink, spawnPoint.position, defaultDrink.transform.rotation);
+            //DrinkObject drinkScript = drink.GetComponent<DrinkObject>();
+            //drinkScript.contains = pendingRecipe.cocktailName;
             
-            drink.transform.position += drinkSpawnOfsset;
-            drink.name = pendingRecipe.cocktailName;
+            //drink.transform.position += drinkSpawnOfsset;
+            //drink.name = pendingRecipe.cocktailName;
+
+            PlayerManager.currentDrink = new Drink(pendingRecipe.cocktailName);
             Debug.Log("Correct drink spawned");
             _shakerText.Show();
-            text.SetText($"You made a {pendingRecipe.cocktailName}");
+            text.SetText($"You made a {pendingRecipe.cocktailName} now go and serve it!");
         }
         else
         {
