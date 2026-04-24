@@ -20,4 +20,6 @@ MonoBehaviour:
   - ingredient: {fileID: 11400000, guid: f786e897238011c4a820343f0c21b970, type: 2}
   effects:
   - {fileID: 11400000, guid: 9161573334d3ec94db54ff0aaf9da8f2, type: 2}
-  cocktailPrefab: {fileID: 5142767678773585848, guid: 67020d8d58c40e845a0dfdc5abda8c5f, type: 3}
+  cocktailPrefab: {fileID: 1745173661074216429, guid: 347448a98430a9a4aa0852204e6a0dd7, type: 3}
+  instructions: 
+  recipeSprite: {fileID: 0}

@@ -18,3 +18,7 @@ MonoBehaviour:
   - ingredient: {fileID: 11400000, guid: 694a8a02838b2104fb75e5995a4f3f7f, type: 2}
   - ingredient: {fileID: 11400000, guid: 18842bc8c056a8c49a56c10787879813, type: 2}
   - ingredient: {fileID: 11400000, guid: e2d815ba936e942468934f7299f006b8, type: 2}
+  effects: []
+  cocktailPrefab: {fileID: 1745173661074216429, guid: 347448a98430a9a4aa0852204e6a0dd7, type: 3}
+  instructions: 
+  recipeSprite: {fileID: 0}
