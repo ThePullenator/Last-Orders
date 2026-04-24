@@ -19,7 +19,7 @@ MonoBehaviour:
   - ingredient: {fileID: 11400000, guid: a9b09ca74eca3f945856b095ffeca9de, type: 2}
   - ingredient: {fileID: 11400000, guid: 79ebcc7dd94717249a1ccd50adb19af4, type: 2}
   effects: []
-  cocktailPrefab: {fileID: 1277959877054851698, guid: be2363153faadbf4cb555ef43d824ff0, type: 3}
+  cocktailPrefab: {fileID: 1745173661074216429, guid: 347448a98430a9a4aa0852204e6a0dd7, type: 3}
   instructions: If it isn't obvious enough judging by how it looks, this is a spicy
     cocktail. Loved by those who like a challenge. Not recommended for those who
     are a more cold blooded.

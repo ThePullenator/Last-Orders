@@ -18,7 +18,7 @@ MonoBehaviour:
   - ingredient: {fileID: 11400000, guid: 82f611cb44345aa47b77474e94fc5bd7, type: 2}
   - ingredient: {fileID: 11400000, guid: b8eed87d2bc88ec48a1204c0b1afec5a, type: 2}
   effects: []
-  cocktailPrefab: {fileID: 1277959877054851698, guid: be2363153faadbf4cb555ef43d824ff0, type: 3}
+  cocktailPrefab: {fileID: 1745173661074216429, guid: 347448a98430a9a4aa0852204e6a0dd7, type: 3}
   instructions: 'What is gold and orange like a forest, but smells like liquor? An
     almost familiar drink with an almost familiar name. The nickname of a forgetful
     detective who enjoys his booze a little too much. The worst thing about alcohol

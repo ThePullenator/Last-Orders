@@ -20,7 +20,7 @@ MonoBehaviour:
   - ingredient: {fileID: 11400000, guid: 18842bc8c056a8c49a56c10787879813, type: 2}
   - ingredient: {fileID: 11400000, guid: 79ebcc7dd94717249a1ccd50adb19af4, type: 2}
   effects: []
-  cocktailPrefab: {fileID: 1277959877054851698, guid: be2363153faadbf4cb555ef43d824ff0, type: 3}
+  cocktailPrefab: {fileID: 1745173661074216429, guid: 347448a98430a9a4aa0852204e6a0dd7, type: 3}
   instructions: Alcohol is bad for you but this is on a whole different level, doubt
     it's even safe for human consumption. Luckily, it's a drink for non-humans. If
     you are non-human and you are wondering if you ate too many uranium rods, this

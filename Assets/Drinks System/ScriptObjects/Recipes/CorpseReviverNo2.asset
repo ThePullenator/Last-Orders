@@ -19,7 +19,7 @@ MonoBehaviour:
   - ingredient: {fileID: 11400000, guid: 694a8a02838b2104fb75e5995a4f3f7f, type: 2}
   - ingredient: {fileID: 11400000, guid: 512419a3ad091a044a9fb514599a65a3, type: 2}
   effects: []
-  cocktailPrefab: {fileID: 919132149155446097, guid: 170ac0a4e38be584298a647ff7889ee1, type: 3}
+  cocktailPrefab: {fileID: 1745173661074216429, guid: 347448a98430a9a4aa0852204e6a0dd7, type: 3}
   instructions: As the famous saying goes "To alcohol! The cause of, and solution
     to, all of life's problems". In this case, it's definitely a solution, a cure
     to not only your emotional inside booboos but also your outside booboos. Cure

@@ -20,7 +20,7 @@ MonoBehaviour:
   - ingredient: {fileID: 11400000, guid: 3f072745cf806e7439ddca4e7ee11a8c, type: 2}
   - ingredient: {fileID: 11400000, guid: 57f9ff233f70a994fad1e8cdc32e455f, type: 2}
   effects: []
-  cocktailPrefab: {fileID: 919132149155446097, guid: 170ac0a4e38be584298a647ff7889ee1, type: 3}
+  cocktailPrefab: {fileID: 1745173661074216429, guid: 347448a98430a9a4aa0852204e6a0dd7, type: 3}
   instructions: A refreshing drink with plenty of "mint" leaves. A great way to take
     the edge off, some say it's as if time moves slower upon consumption. Popular
     drink among the youth!
