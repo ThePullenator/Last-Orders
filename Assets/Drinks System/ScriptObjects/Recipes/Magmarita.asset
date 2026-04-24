@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446c29971cf3e93409a103599ac8436a, type: 3}
+  m_Name: Magmarita
+  m_EditorClassIdentifier: Assembly-CSharp::CocktailRecipe
+  cocktailName: Magmarita
+  requiredIngredients:
+  - ingredient: {fileID: 11400000, guid: f786e897238011c4a820343f0c21b970, type: 2}
+  - ingredient: {fileID: 11400000, guid: b8eed87d2bc88ec48a1204c0b1afec5a, type: 2}
+  - ingredient: {fileID: 11400000, guid: a9b09ca74eca3f945856b095ffeca9de, type: 2}
+  - ingredient: {fileID: 11400000, guid: 79ebcc7dd94717249a1ccd50adb19af4, type: 2}
+  effects: []
+  cocktailPrefab: {fileID: 1277959877054851698, guid: be2363153faadbf4cb555ef43d824ff0, type: 3}
+  instructions: If it isn't obvious enough judging by how it looks, this is a spicy
+    cocktail. Loved by those who like a challenge. Not recommended for those who
+    are a more cold blooded.
+  recipeSprite: {fileID: 21300000, guid: 5992b93562ad5a54eb00abb94982cd2c, type: 3}

@@ -113,9 +113,7 @@ public class UIManager : MonoBehaviour
             if (promptCanvasGroup != null)
                 promptCanvasGroup.alpha = 1;
 
-            // Update the prompt text in real-time
             if (itemTextUI != null)
-                // Update the prompt text in real-time
                 if (itemTextUI != null)
                     switch (hitObject.layer)
                     {

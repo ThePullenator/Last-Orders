@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446c29971cf3e93409a103599ac8436a, type: 3}
+  m_Name: TequilaSunset
+  m_EditorClassIdentifier: Assembly-CSharp::CocktailRecipe
+  cocktailName: Tequila Sunset
+  requiredIngredients:
+  - ingredient: {fileID: 11400000, guid: 84450532d0fa09947b37758be9714566, type: 2}
+  - ingredient: {fileID: 11400000, guid: 82f611cb44345aa47b77474e94fc5bd7, type: 2}
+  - ingredient: {fileID: 11400000, guid: b8eed87d2bc88ec48a1204c0b1afec5a, type: 2}
+  effects: []
+  cocktailPrefab: {fileID: 1277959877054851698, guid: be2363153faadbf4cb555ef43d824ff0, type: 3}
+  instructions: 'What is gold and orange like a forest, but smells like liquor? An
+    almost familiar drink with an almost familiar name. The nickname of a forgetful
+    detective who enjoys his booze a little too much. The worst thing about alcohol
+    is that it makes you do things you wouldn''t normally do. The second worst thing
+    is that it makes you not remember doing them. '
+  recipeSprite: {fileID: 21300000, guid: a4e2050d7e4b3324fa25d48e1248201c, type: 3}

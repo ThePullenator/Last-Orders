@@ -2,7 +2,7 @@ using UnityEngine;
 
 public interface IPickupable
 {
-    void OnPickup();
-    public GameObject Origin { get; set; }
-    public ObjectPlaceholder ObjectPlaceholder { get; set; }
+   void OnPickup();
+   GameObject Origin { get; set; }
+  ObjectPlaceholder ObjectPlaceholder { get; set; }
 }

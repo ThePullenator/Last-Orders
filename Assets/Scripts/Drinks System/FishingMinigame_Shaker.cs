@@ -7,7 +7,7 @@ public class FishingMinigame_Shaker : MonoBehaviour
 
     [Header("UI")]
     public GameObject uiRoot;          // ShakingGameUI
-    public RectTransform playArea;    
+    public RectTransform playArea;
     public RectTransform playerShaker; // Bobber (the shaker icon you control)
     public RectTransform greenZone;    // Green target area
     public Image progressFill;
@@ -156,19 +156,23 @@ public class FishingMinigame_Shaker : MonoBehaviour
         else if (_progress <= 0f) Fail();
     }
 
+
     void Win()
     {
         _playing = false;
         uiRoot.SetActive(false);
         UIManager.Instance?.ExitMinigameMode();
+        ResultBannerUI.Instance?.ShowSuccess();
         Shaker.Current?.OnMinigameWin();
     }
+
 
     void Fail()
     {
         _playing = false;
         uiRoot.SetActive(false);
         UIManager.Instance?.ExitMinigameMode();
+        ResultBannerUI.Instance?.ShowFail();
         Shaker.Current?.OnMinigameFail();
     }
 }

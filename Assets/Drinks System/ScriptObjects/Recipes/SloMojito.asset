@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446c29971cf3e93409a103599ac8436a, type: 3}
+  m_Name: SloMojito
+  m_EditorClassIdentifier: Assembly-CSharp::CocktailRecipe
+  cocktailName: Slo-Mojito
+  requiredIngredients:
+  - ingredient: {fileID: 11400000, guid: a9b09ca74eca3f945856b095ffeca9de, type: 2}
+  - ingredient: {fileID: 11400000, guid: 79ebcc7dd94717249a1ccd50adb19af4, type: 2}
+  - ingredient: {fileID: 11400000, guid: a4ec44d6a3a260a4390a9f49f032e3a2, type: 2}
+  - ingredient: {fileID: 11400000, guid: 3f072745cf806e7439ddca4e7ee11a8c, type: 2}
+  - ingredient: {fileID: 11400000, guid: 57f9ff233f70a994fad1e8cdc32e455f, type: 2}
+  effects: []
+  cocktailPrefab: {fileID: 919132149155446097, guid: 170ac0a4e38be584298a647ff7889ee1, type: 3}
+  instructions: A refreshing drink with plenty of "mint" leaves. A great way to take
+    the edge off, some say it's as if time moves slower upon consumption. Popular
+    drink among the youth!
+  recipeSprite: {fileID: 21300000, guid: 848771b95e947464baedd3b0e8628521, type: 3}

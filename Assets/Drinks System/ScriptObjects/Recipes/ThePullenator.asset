@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446c29971cf3e93409a103599ac8436a, type: 3}
+  m_Name: ThePullenator
+  m_EditorClassIdentifier: Assembly-CSharp::CocktailRecipe
+  cocktailName: The Pullenator
+  requiredIngredients:
+  - ingredient: {fileID: 11400000, guid: 1cc263bbfb3a2a944b92a68156710255, type: 2}
+  - ingredient: {fileID: 11400000, guid: 29a3b9bea572d4348ad8301246f5588e, type: 2}
+  - ingredient: {fileID: 11400000, guid: 57f9ff233f70a994fad1e8cdc32e455f, type: 2}
+  effects: []
+  cocktailPrefab: {fileID: 919132149155446097, guid: 170ac0a4e38be584298a647ff7889ee1, type: 3}
+  instructions: A cocktail for Girls who are boys who like boys to be girls, who
+    do boys like they're girls, who do girls like they're boys. A Signature cocktail
+    created by the GOAT during the hardest nights, birthed through hardship and necessity.
+  recipeSprite: {fileID: 21300000, guid: 1c209519740c6424b99bdb29e0668411, type: 3}
