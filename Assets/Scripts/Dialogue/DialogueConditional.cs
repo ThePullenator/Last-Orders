@@ -19,10 +19,10 @@ public class DialogueConditional : ScriptableObject
        {
            DialogueConditionalItem conditionalItem = possibleDialogues[i];
 
-           if (CheckIfValidConditional(conditionalItem) && CheckTime(conditionalItem, currentTime))
-           {
-               return conditionalItem.CharacterScript;
-           }
+           //if (CheckIfValidConditional(conditionalItem) && CheckTime(conditionalItem, currentTime))
+           //{
+           //    return conditionalItem.CharacterScript;
+           //}
        }
        
        Debug.LogError("No valid dialogues found!");
@@ -43,7 +43,9 @@ public class DialogueConditional : ScriptableObject
 
     bool CheckIfValidConditional(DialogueConditionalItem conditionalItem)
     {
-        return DialogueManager.Instance.TriggeredStoryEvents.Contains(conditionalItem.triggeringEvent);
+        //return DialogueManager.Instance.TriggeredStoryEvents.Contains(conditionalItem.triggeringEvent);
+
+        return true;
     }
 
     bool CheckTime(DialogueConditionalItem conditionalItem, TimeSpan currentTime)

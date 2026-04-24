@@ -14,7 +14,7 @@ public class DialogueManager : MonoBehaviour
     public Dictionary<string, string> DialogueDict;
     public Dictionary<string, Person> Characters = new Dictionary<string, Person>();
     public CharacterScript currentCharacterScript;
-    public HashSet<StoryEvents> TriggeredStoryEvents;
+    public HashSet<dialogueEvents> TriggeredStoryEvents;
     public GameObject choiceButtonPrefab;
     public StudioEventEmitter speakTick;
     

@@ -16,3 +16,7 @@ MonoBehaviour:
   - carmen_takeOrderConspiracy_closed_0
   - sapphire_takeOrderConspiracy_closed_1
   dialogueOptionScripts: []
+  DialogueEventsArray: 
+  sharedWith:
+  - Carmen
+  - Sapphire

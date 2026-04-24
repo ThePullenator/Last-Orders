@@ -15,13 +15,13 @@ MonoBehaviour:
   genericSpawns:
   - {fileID: 252855287843933654, guid: 3fbfff7e89c4a9d4fb1e403d81a2132b, type: 3}
   spawnWaves:
-  - startHour: 7
+  - startHour: 19
     startMinute: 0
-    genericSpawnInterval: 15
+    genericSpawnInterval: 30
   specialSpawns:
-  - startHour: 7
+  - startHour: 19
     startMinute: 30
-    endHour: 7
+    endHour: 19
     endMinute: 32
     characters:
     - Character: {fileID: 3298259494202881107, guid: a419b51d00e8515438b6f92b6b7547bf, type: 3}
@@ -29,12 +29,20 @@ MonoBehaviour:
       type: 0
     - Character: {fileID: 6832361552906873075, guid: e4c0a385c21e1024ea1c1ef2fb5e4ee2, type: 3}
       GoToBooth: 1
-      type: 5
-  - startHour: 7
+      type: 0
+  - startHour: 20
     startMinute: 30
-    endHour: 7
+    endHour: 21
     endMinute: 33
     characters:
     - Character: {fileID: 115943271844652997, guid: 8ee9d18d2e0a2e24c8e662363500f11e, type: 3}
-      GoToBooth: 1
+      GoToBooth: 0
+      type: 0
+  - startHour: 19
+    startMinute: 30
+    endHour: 20
+    endMinute: 30
+    characters:
+    - Character: {fileID: 3298259494202881107, guid: 52fc3f0a113c605478a79db2f809c9e0, type: 3}
+      GoToBooth: 0
       type: 0

@@ -15,3 +15,7 @@ MonoBehaviour:
   dialogueKeys:
   - carmen_conspiracyLeave_closed_1
   dialogueOptionScripts: []
+  DialogueEventsArray: 
+  sharedWith:
+  - Carmen
+  - Sapphire

@@ -54,7 +54,11 @@ MonoBehaviour:
   animationEnabled: 0
   characterName: 
   dialogueIndex: 0
+  mutantType: 0
   spawnOffset: {x: 0, y: 0, z: 0}
+  unique: 0
+  navMeshAgent: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!65 &820913802663540028
 BoxCollider:
   m_ObjectHideFlags: 0
