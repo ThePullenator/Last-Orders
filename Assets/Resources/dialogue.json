@@ -62,5 +62,8 @@
   "axel_whatIsMutant_closed_1": "They're the people affected by the radiation that's seeped in from the surface.",
   "axel_whatIsMutant_closed_2": "It gives some people strange abilities, like stronger muscles, faster thinking, y'know- that sorta thing.",
   "axel_whatIsMutant_closed_3": "Anyway, if you happen to spot any, just do me a solid and let me know rather than any authorities.",
-  "axel_whatIsMutant_closed_4": "Last thing- you do [DRINK PLACE HOLDER], right? Could I have a pint of that, please?"
+  "axel_whatIsMutant_closed_4": "Last thing- you do [DRINK PLACE HOLDER], right? Could I have a pint of that, please?",
+  "lyra_firstMeet_closed_0" : "Hey I'm lyra, who are you?",
+  "lyra_firstMeet_choice_1" : "I'm the bartender, my name isn't important |...",
+  "lyra_firstMeet_closed_2" : "Oooookay, well i'm going to wait for my brother, but in the mean time do you think you could get me a [DRINK PLACEHOLDER]?"
 }

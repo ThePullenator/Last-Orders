@@ -16,12 +16,12 @@ public class ShiftOver : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (TimeManager.Instance.currentTime.Hours >= 10)
-        {
-            PlayerManager.FirstPersonController.enabled = false;
-            StartCoroutine(PanelFadeOut(3.5f));
-            Cursor.lockState = CursorLockMode.None;
-        }
+        //if (TimeManager.Instance.currentTime.Hours >= 10)
+        //{
+        //    PlayerManager.FirstPersonController.enabled = false;
+        //    StartCoroutine(PanelFadeOut(3.5f));
+        //    Cursor.lockState = CursorLockMode.None;
+        //}
     }
 
     IEnumerator PanelFadeOut(float time)

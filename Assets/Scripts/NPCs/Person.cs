@@ -16,11 +16,14 @@ public class Person : MonoBehaviour, IInteractable
     public int dialogueIndex;
     public PersonType mutantType = PersonType.Human; 
     public Vector3 spawnOffset;
-    public bool unique = false;
+    public bool _canBeTalkedTo = true;
+    public bool _canBeServed = false;
+    public bool generic = false; 
 
     public NavMeshAgent navMeshAgent;
     public Animator animator;
 
+    GameObject exclamationPoint;
 
     IState _currentState;
     float _currentSpeed;
@@ -38,13 +41,18 @@ public class Person : MonoBehaviour, IInteractable
         cam = transform.GetChild(0).gameObject;
         navMeshAgent = GetComponent<NavMeshAgent>();
         navMeshAgent.updateRotation = false;
+        exclamationPoint = transform.GetChild(2).gameObject;
     }
 
     void Start()
     {
         SetRandomDrink();
-        
-        if (characterName == "") SetRandomName();
+
+        if (characterName == "")
+        {
+            generic = true;
+            SetRandomName();
+        }
         else DialogueManager.Instance.Characters.Add(characterName.ToLower(), this);
 
         gameObject.name = characterName;
@@ -76,6 +84,12 @@ public class Person : MonoBehaviour, IInteractable
     void Update()
     {
         _currentState.Update(this);
+    }
+
+    public void setCanBeTalkedTo(bool canBeTalkedTo)
+    {
+        exclamationPoint.SetActive(canBeTalkedTo);
+        _canBeTalkedTo = canBeTalkedTo;
     }
 
     public void kill()
@@ -110,10 +124,21 @@ public class Person : MonoBehaviour, IInteractable
     }
     
     public void Interact()
-    {
-        //if(!PlayerManager.InBar) return;
-
+    {        
         PlayerManager.LastInteractedPerson = this;
+        if (_canBeServed)
+        {
+            if (PlayerManager.currentDrink?.Name == Drink.Name)
+            {
+                UIManager.Instance.ServeDrink();
+                _canBeServed = false;
+                
+                exclamationPoint.SetActive(false);
+            }
+        }
+        
+        if(!_canBeTalkedTo) return;
+        
         PlayerManager.FirstPersonController.enabled = false;
         PlayerManager.PlayerLook.enabled = false;
 

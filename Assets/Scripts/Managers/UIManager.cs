@@ -64,14 +64,7 @@ public class UIManager : MonoBehaviour
         PlayerManager.currentDrink.OnDrink(PlayerManager.LastInteractedPerson);
         PlayerManager.currentDrink = null;
         
-        //This is temp stuff, fix this when u figure out how to twin characters
-        if (PlayerManager.LastInteractedPerson.characterName == "Carmen")
-        {
-            Destroy(DialogueManager.Instance.Characters["sapphire"].gameObject);
-            DialogueManager.Instance.Characters.Remove("sapphire");
-        }
-        
-        if(!PlayerManager.LastInteractedPerson.unique) PlayerManager.LastInteractedPerson.SwitchStates(new MoveToState(barExit.position, true));
+        if(PlayerManager.LastInteractedPerson.generic) PlayerManager.LastInteractedPerson.SwitchStates(new MoveToState(barExit.position, true));
         
         CloseUI(customerUI);
     }
@@ -126,7 +119,9 @@ public class UIManager : MonoBehaviour
                         
                         case 8: // NPC layer
                             Person npcModule = hitObject.GetComponent<Person>();
-                            itemTextUI.text = $"Talk to {npcModule.characterName}";
+                            itemTextUI.text = "";
+                            if (npcModule._canBeServed) itemTextUI.text = $"Serve {npcModule.characterName} \n (Wants {npcModule.Drink.Name})";
+                            if (npcModule._canBeTalkedTo) itemTextUI.text = $"Talk to {npcModule.characterName}";
                             break;
                         
                         case 9: // Pickup layer (could be more pickupable items in the future, maybe use another switch statement instead?)
